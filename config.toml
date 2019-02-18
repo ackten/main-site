@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://ackten.com/"
 languageCode = "en-us"
-title = "Meghna"
+title = "Ackten"
 
 theme = "meghna-hugo"
 
