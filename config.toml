@@ -24,11 +24,6 @@ DefaultContentLanguage = "en"
     weight = 4
 
     [[menu.nav]]
-    name = "Team"
-    URL = "/team"
-    weight = 6
-
-    [[menu.nav]]
     name = "Pricing"
     URL = "/pricing"
     weight = 7
@@ -37,17 +32,6 @@ DefaultContentLanguage = "en"
     name = "Contact"
     URL = "/contact"
     weight = 8
-
-    [[menu.nav]]
-    weight = 9
-    name = "Pages"
-    hasChildren = true
-
-        [[menu.nav]]
-        parent = "Pages"
-        name = "Project"
-        URL = "/project"
-
 
 
 [params]
@@ -77,11 +61,17 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
   name = "keywords"
   content = "this it a content"
 
+    # Login Link
+    [params.loginLink]
+    btnText = "Login"
+    btnURL = "/login"
+
+
     # Quote Button
     [params.quoteBtn]
     enable = true
     btnText = "get a quote"
-    btnURL = "#"
+    btnURL = "/pricing"
 
     # about
     [params.about]
@@ -89,6 +79,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     bgImage = "images/background/about-bg.jpg"
     title = "Who We Are?"
     description = "Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum."
+
     [params.about.btn]
     enable = true
     btnText = "Explore More"
@@ -123,7 +114,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     [params.cta]
     enable = true
     bgImage = "images/background/cta.jpg"
-    title = "Biztrox give the smart solution for your business"
+    title = "ackten give the smart solution for your business"
     btnText = "get a quote"
     btnURL = "#"
 
@@ -186,7 +177,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     subscribeContent = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
 
     # copyright
-    copyright = "Bizpro</span> &copy; 2017 All Right Reserved"
+    copyright = "Ackten</span> &copy; 2019 All Right Reserved"
 
         # social icon
         [[params.footer.socialIcon]]

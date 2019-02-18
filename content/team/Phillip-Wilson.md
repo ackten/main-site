@@ -14,7 +14,7 @@ experienceOf : 13 Years
 from : San Diago. NY
 cvURL : '#'
 mobile : +88 525 325 22
-email : philipwilson@biztrox.com
+email : philipwilson@ackten.com
 location : 2/A Southampton, Sandiago, USA.
 description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat irure dolor in reprehender.
 branding : 85%
