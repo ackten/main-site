@@ -1,8 +1,9 @@
 baseURL = "https://ackten.com/"
-languageCode = "en-us"
+languageCode = "en-US"
 title = "Ackten"
 theme = "biztrox-hugo"
 summaryLength = "20"
+DefaultContentLanguage = "en"
 
 # navigation
 [menu]
@@ -56,8 +57,8 @@ mobile = "1234565523"
 home = "Home"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+mapLatitude = "39.7392"
+mapLongitude = "104.9903"
 mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
