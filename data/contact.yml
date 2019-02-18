@@ -1,21 +1,16 @@
 enable : true
-heading : Get In
-headingSpan : Touch
-title : Contact Details
-content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
-enable_maps : false
-mapLatitude : 51.5223477
-mapLongitude: -0.1622023
-contactDetails :
-  - icon : tf-map-pin
-    info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+title : Contact Us
+formTitle : Contact Form
+btnText : Submit Now
+contactList : 
+  - icon : ti-mobile
+    listItem1 : +88 0123 456 789
+    listItem2 : +88 987 654 3210
     
-  - icon : tf-ion-ios-telephone-outline
-    info : "Phone: +880-31-000-000"
+  - icon : ti-email
+    listItem1 : info@biztrox.com
+    listItem2 : biztrox@email.com
     
-  - icon : tf-ion-iphone
-    info : "Fax: +880-31-000-000"
-    
-  - icon : tf-ion-ios-email-outline
-    info : "Email: hello@meghna.com"
-    
+  - icon : ti-map-alt
+    listItem1 : 24/B Garden Street.
+    listItem2 : Northambia, Weals, UK
