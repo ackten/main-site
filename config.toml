@@ -64,7 +64,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     # Login Link
     [params.loginLink]
     btnText = "Login"
-    btnURL = "https://app.ackten.com/"
+    btnURL = "https://dashboard.ackten.com/"
 
 
     # Quote Button
