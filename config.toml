@@ -114,7 +114,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     [params.cta]
     enable = true
     bgImage = "images/background/cta.jpg"
-    title = "ackten give the smart solution for your business"
+    title = "ackten gives the smart solution for your business"
     btnText = "get a quote"
     btnURL = "#"
 
