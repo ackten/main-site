@@ -2,33 +2,33 @@ enable : true
 sliderItem:
   - subHeading : Bring meaning to your
     heading : Metrics
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    description : Key Performance Indicators are only great if they are actionable, and meaningful, use our technology to bring meaning to your teams.
     bgImage : images/banner/banner-1.jpg
     dataIcon : ti-thought
     dataText : Product
     btn :
       enable : true
-      btnText: More Details
+      btnText: See Metrics
       btnURL : '#'
 
   - subHeading : Empower your
     heading : Engineering Department
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    description : Use our proprietary workflow enhancements to reduce developer cycles, improve quality and bring actionable metrics to your teams.
     bgImage : images/banner/banner-2.jpg
     dataIcon : ti-pencil-alt
     dataText : Engineering
     btn :
       enable : true
-      btnText: More details
+      btnText: Our Integrations
       btnURL : '#'
 
   - subHeading : Get your
     heading : Personalized Consultant
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    description : Hire one of our consultants to help you optimize your product and engineering organizations.
     bgImage : images/banner/banner-3.jpg
     dataIcon : ti-comments
     dataText : Consulting
     btn :
       enable : true
-      btnText: More details
+      btnText: Click to Meet Our Team
       btnURL : '#'
