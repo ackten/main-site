@@ -19,6 +19,7 @@
         autoplay: true,
         infinite: true,
         speed: 1500,
+        autoplaySpeed: 1500,
         arrows: true,
         prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
         nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>',
