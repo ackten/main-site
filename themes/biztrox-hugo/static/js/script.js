@@ -18,7 +18,8 @@
     $('.hero-slider').slick({
         autoplay: true,
         infinite: true,
-        speed: 1500,
+        speed: 3000,
+        autoplaySpeed: 3000,
         arrows: true,
         prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
         nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>',
@@ -41,6 +42,8 @@
     $('.hero-slider-2').slick({
         autoplay: true,
         infinite: true,
+        speed: 3000,
+        autoplaySpeed: 3000,
         arrows: false,
         dots: false
     });
@@ -50,7 +53,7 @@
     $('.work-slider').slick({
         dots: true,
         infinite: true,
-        speed: 300,
+        speed: 3000,
         slidesToShow: 4,
         slidesToScroll: 4,
         arrows: false,
@@ -119,6 +122,7 @@
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
+        speed: 3000,
         dots: false,
         arrows: false,
         responsive: [{
