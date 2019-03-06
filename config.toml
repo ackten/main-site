@@ -1,7 +1,6 @@
 baseURL = "https://ackten.com/"
 languageCode = "en-US"
 title = "Ackten"
-theme = "biztrox-hugo"
 summaryLength = "20"
 DefaultContentLanguage = "en"
 
@@ -17,11 +16,6 @@ DefaultContentLanguage = "en"
     name = "Service"
     URL = "/service"
     weight = 3
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "/blog"
-    weight = 4
 
     [[menu.nav]]
     name = "Pricing"
@@ -70,7 +64,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     # Quote Button
     [params.quoteBtn]
     enable = true
-    btnText = "get a quote"
+    btnText = "Join Private Beta"
     btnURL = "/pricing"
 
     # about
@@ -166,15 +160,13 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     logo = "images/logo-footer.png"
     content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
 
-    # service links
-    services = "Services"
 
     # quickLinks
     quickLink = "Quick Link"
 
     # subscribe
-    subscribe = "Subscribe Us"
-    subscribeContent = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
+    subscribe = "Join Private Beta"
+    subscribeContent = "Enter your email here to join our private beta, we swear not to spam."
 
     # copyright
     copyright = "Ackten</span> &copy; 2019 All Right Reserved"

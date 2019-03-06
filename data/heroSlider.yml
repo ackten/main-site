@@ -1,34 +1,12 @@
 enable : true
 sliderItem:
-  - subHeading : Bring meaning to your
-    heading : Metrics
-    description : Key Performance Indicators are only great if they are actionable, and meaningful, use our technology to bring meaning to your teams.
-    bgImage : images/banner/banner-1.jpg
-    dataIcon : ti-thought
-    dataText : Product
-    btn :
-      enable : true
-      btnText: See Metrics
-      btnURL : '#'
-
-  - subHeading : Empower your
-    heading : Engineering Department
-    description : Use our proprietary workflow enhancements to reduce developer cycles, improve quality and bring actionable metrics to your teams.
+  - subHeading : Get s**t done
+    heading : Reduce Developer Cycles
+    description : Use our workflow enhancements to reduce developer cycles, improve quality and bring actionable metrics to your teams.
     bgImage : images/banner/banner-2.jpg
     dataIcon : ti-pencil-alt
     dataText : Engineering
     btn :
       enable : true
       btnText: Our Integrations
-      btnURL : '#'
-
-  - subHeading : Get your
-    heading : Personalized Consultant
-    description : Hire one of our consultants to help you optimize your product and engineering organizations.
-    bgImage : images/banner/banner-3.jpg
-    dataIcon : ti-comments
-    dataText : Consulting
-    btn :
-      enable : true
-      btnText: Click to Meet Our Team
       btnURL : '#'
