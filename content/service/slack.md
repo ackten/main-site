@@ -1,7 +1,7 @@
 ---
-title: "Valuable Idea"
+title: "Slack"
 date: 2018-09-29T11:51:17+06:00
-image: images/service/service-6.jpg
+image: images/service/service-2.jpg
 bgImage: images/background/page-title.jpg
 icon: ti-thought
 brochureURL: '#'
@@ -11,6 +11,7 @@ halfDay: Thursday
 halfTime: 08.00am - 01.00pm
 offDay: Friday
 type : service
+cardSummary: Slack is pretty great, and we integrate in a number of ways to smartly (e.g, not annoyingly) let you know in an actionable manner, that there is something to do in your system.
 ---
 
 ### Marketing Oriented To The Targated Customers

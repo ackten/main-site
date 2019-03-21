@@ -1,19 +1,23 @@
 ---
-title: "Market Strategy"
+title: "JIRA Software"
 date: 2018-09-29T11:54:02+06:00
 image: images/service/service-3.jpg
 bgImage: images/background/page-title.jpg
 icon: ti-server
 brochureURL: '#'
+imageUrl: "../../images/jira/jira-software.png"
 regularDay: Sun-Tues
 regularTime: 08.00am - 06.00pm
 halfDay: Thursday
 halfTime: 08.00am - 01.00pm
 offDay: Friday
 type : service
+sideHeadingEnabled: false
+cardSummary: Our goal is to make using JIRA suck less, and make your day easier by firing events through your other systems, or by bringing in information from your other systems onto your tickets.
+
 ---
 
-### Marketing Oriented To The Targated Customers
+### Make JIRA suck less
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

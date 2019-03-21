@@ -1,16 +1,11 @@
 enable : true
-title : Contact Us
-formTitle : Contact Form
+title : Join Private Beta
+formTitle : Apply For Access
 btnText : Submit Now
 contactList :
-  - icon : ti-mobile
-    listItem1 : +88 0123 456 789
-    listItem2 : +88 987 654 3210
-
   - icon : ti-email
     listItem1 : info@ackten.com
     listItem2 : ackten@email.com
 
   - icon : ti-map-alt
-    listItem1 : 24/B Garden Street.
-    listItem2 : Northambia, Weals, UK
+    listItem1 : Denver, Colorado, USA

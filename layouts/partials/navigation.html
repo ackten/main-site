@@ -9,12 +9,12 @@
                         <li class="list-inline-item">
                            {{ with .Site.Params.mail }} <a href="mailto:{{ . | absURL }}">{{ . }}</a> {{ end }}
                         </li>
-                        <li class="list-inline-item">
+                        <!-- <li class="list-inline-item">
                             {{ with .Site.Params.mobile }} <a href="callto:{{ . }}">Call Us Now:
                                 <span class="ml-2">{{ . }}</span> {{ end }}
                             </a>
                         </li>
-
+ -->
                         <li class="list-inline-item">
                             <a href="{{ .Site.Params.loginLink.btnURL }}">{{ .Site.Params.loginLink.btnText }}</a>
                         </li>

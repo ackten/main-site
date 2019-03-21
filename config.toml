@@ -8,12 +8,7 @@ DefaultContentLanguage = "en"
 [menu]
 
     [[menu.nav]]
-    name = "About"
-    URL = "/about"
-    weight = 2
-
-    [[menu.nav]]
-    name = "Service"
+    name = "Integrations"
     URL = "/service"
     weight = 3
 
@@ -39,7 +34,7 @@ mapLatitude = "39.7392"
 mapLongitude = "104.9903"
 mapMarker = "images/marker.png"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-136686652-1"
 
 # mailchimp subsciption
 mailchimpFormAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e" # replace this url with yours
@@ -65,52 +60,45 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     [params.quoteBtn]
     enable = true
     btnText = "Join Private Beta"
-    btnURL = "/pricing"
+    btnURL = "/beta"
 
     # about
     [params.about]
     enable = true
     bgImage = "images/background/about-bg.jpg"
     title = "Who We Are?"
-    description = "Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum."
+    description = "We are developers, product managers, and scrummasters who are looking to improve their teams workflow so they can be more productive."
 
     [params.about.btn]
     enable = true
-    btnText = "Explore More"
-    btnURL = "#"
+    btnText = "Explore Integrations"
+    btnURL = "#integrations"
 
         [[params.about.listLeft]]
-        listItem = "Business Services"
+        listItem = "Pull Request Reminders"
 
         [[params.about.listLeft]]
-        listItem = "Audit & Assurance"
+        listItem = "Product Review Alerts"
 
         [[params.about.listLeft]]
-        listItem = "IT Control Solutions"
+        listItem = "GitFlow Enforcement"
 
         [[params.about.listRight]]
-        listItem = "Business Services"
+        listItem = "Broken Build Blame"
 
         [[params.about.listRight]]
-        listItem = "Audit & Assurance"
+        listItem = "Advanced Pull Requests"
 
         [[params.about.listRight]]
-        listItem = "IT Control Solutions"
-
-    # promo video
-    [params.promoVideo]
-    enable = true
-    heading = "We Are Alawys <br> Commited"
-    videoURL = "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
-    title = "Lorem ipsum dolor <br> sit amet con."
+        listItem = "TDD Enforcement"
 
     # cta
     [params.cta]
     enable = true
     bgImage = "images/background/cta.jpg"
-    title = "ackten gives the smart solution for your business"
-    btnText = "get a quote"
-    btnURL = "#"
+    title = "Ackten gives the smart solution for your business"
+    btnText = "Join Beta"
+    btnURL = "/beta"
 
     # clients Logo Slider
     [params.logoSlider]
@@ -158,7 +146,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     # footer
     [params.footer]
     logo = "images/logo-footer.png"
-    content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
+    content = "Bring together your systems to make your developers, product owners and managers more effective."
 
 
     # quickLinks
@@ -188,31 +176,11 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
         icon = "ti-linkedin"
         URL = "#"
 
-        # service links
-        [[params.footer.service]]
-        serviceItem = "Company History"
-        URL = "#"
-
-        [[params.footer.service]]
-        serviceItem = "About Us"
-        URL = "#"
-
-        [[params.footer.service]]
-        serviceItem = "Contact Us"
-        URL = "#"
-
-        [[params.footer.service]]
-        serviceItem = "Service"
-        URL = "#"
-
-        [[params.footer.service]]
-        serviceItem = "Privacy Policy"
-        URL = "#"
 
         # quick links
         [[params.footer.quickLinks]]
         quickLinkItem = "Pricing"
-        URL = "#"
+        URL = "/pricing"
 
         [[params.footer.quickLinks]]
         quickLinkItem = "FAQs"
@@ -220,15 +188,12 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
 
         [[params.footer.quickLinks]]
         quickLinkItem = "Contact Us"
-        URL = "#"
+        URL = "/beta"
 
         [[params.footer.quickLinks]]
-        quickLinkItem = "Service"
-        URL = "#"
+        quickLinkItem = "Integrations"
+        URL = "/service"
 
-        [[params.footer.quickLinks]]
-        quickLinkItem = "Privacy Policy"
-        URL = "#"
 
         # bottom links
         [[params.footer.links]]

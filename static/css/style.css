@@ -16,7 +16,7 @@ p, .paragraph {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #303032;
+  color: #222;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
@@ -88,7 +88,7 @@ h6, .h6 {
 }
 
 .btn-secondary {
-  background: #394977;
+  background: #303032;
   color: #fff;
 }
 
@@ -103,7 +103,7 @@ h6, .h6 {
 
 .btn-light {
   background: #fff;
-  color: #303032;
+  color: #222;
   border: 2px solid #fff;
 }
 
@@ -115,12 +115,12 @@ h6, .h6 {
 
 .btn-outline {
   background: transparent;
-  color: #303032;
-  border: 2px solid #394977;
+  color: #222;
+  border: 2px solid #303032;
 }
 
 .btn-outline:hover {
-  background: #394977;
+  background: #303032;
   color: #fff;
 }
 
@@ -214,7 +214,7 @@ button {
 }
 
 .hilighted {
-  background: #394977;
+  background: #303032;
   color: #919E4D;
   border-radius: 3px;
   padding: 2px 5px;
@@ -572,7 +572,7 @@ button {
 }
 
 .bg-secondary {
-  background-color: #394977 !important;
+  background-color: #303032 !important;
 }
 
 .text-primary {
@@ -600,7 +600,7 @@ button {
 }
 
 .text-dark {
-  color: #303032;
+  color: #222;
 }
 
 .text-underline {
@@ -732,7 +732,7 @@ code{
 
 /* 2. Navigation */
 .top-header {
-  background: #394977;
+  background: #303032;
 }
 
 @media (max-width: 575px) {
@@ -827,7 +827,7 @@ code{
   padding: 15px 10px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #303032;
+  color: #222;
   text-transform: uppercase;
   transition: .2s ease;
   font-size: 14px;
@@ -962,7 +962,7 @@ code{
 /* 2.3. Search Form */
 .search-form {
   padding: 230px 0;
-  background: #394977;
+  background: #303032;
   position: absolute;
   width: 100%;
   top: -800px;
@@ -1144,7 +1144,7 @@ code{
   top: -12px;
   height: 25px;
   width: 25px;
-  background: #394977;
+  background: #303032;
   -webkit-transform: translateX(-50%) rotate(-45deg);
           transform: translateX(-50%) rotate(-45deg);
   opacity: 0;
@@ -1155,7 +1155,7 @@ code{
   position: relative;
   text-align: center;
   transition: .3s ease;
-  color: #394977;
+  color: #303032;
 }
 
 .hero-slider .slick-dots li a i {
@@ -1198,7 +1198,7 @@ code{
 }
 
 .hero-slider .slick-dots li.slick-active {
-  background: #394977;
+  background: #303032;
 }
 
 .hero-slider .slick-dots li.slick-active a {
@@ -1218,7 +1218,7 @@ code{
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 7px;
-  color: #303032 !important;
+  color: #222 !important;
 }
 
 .progress {
@@ -1229,7 +1229,7 @@ code{
 }
 
 .progress-bar {
-  background-color: #394977;
+  background-color: #303032;
   border-radius: 35px;
   position: relative;
 }
@@ -1238,7 +1238,7 @@ code{
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: #fff;
-  background: #394977;
+  background: #303032;
   padding: 5px 9px;
   position: absolute;
   top: -35px;
@@ -1251,7 +1251,7 @@ code{
   content: '';
   bottom: -5px;
   left: 50%;
-  background: #394977;
+  background: #303032;
   height: 10px;
   width: 10px;
   -webkit-transform: translateX(-50%) rotate(-45deg);
@@ -1528,7 +1528,7 @@ code{
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 32px;
-  color: #303032;
+  color: #222;
 }
 
 @media (max-width: 1199px) {
@@ -1575,7 +1575,7 @@ img.arrow-bottom {
 }
 
 .service-menu li.active a {
-  background: #394977;
+  background: #303032;
   color: #fff !important;
 }
 
@@ -1584,7 +1584,7 @@ img.arrow-bottom {
   content: '';
   height: 15px;
   width: 15px;
-  background: #394977;
+  background: #303032;
   top: 50%;
   right: -7px;
   -webkit-transform: translateY(-50%) rotate(-45deg);
@@ -1599,7 +1599,7 @@ img.arrow-bottom {
 
 .service-menu li:hover a {
   color: #fff !important;
-  background: #394977;
+  background: #303032;
 }
 
 /* service single end */
@@ -1729,7 +1729,7 @@ img.arrow-bottom {
 .project-menu ul li {
   padding: 5px 20px;
   border-radius: 35px;
-  color: #303032;
+  color: #222;
   font-size: 16px;
   font-weight: 400;
   border: 1px solid #e5e5e5;
@@ -1820,7 +1820,7 @@ img.arrow-bottom {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #303032;
+  color: #222;
   margin-bottom: 25px;
   position: relative;
   margin-left: 20px;
@@ -2501,10 +2501,10 @@ blockquote{
   width: 50px;
   border-radius: 50%;
   color: #fff;
-  background: #394977;
+  background: #303032;
   top: -25px;
   right: 10px;
-  border: 1px solid #ffffff;
+  border: 1px solid #454547;
   text-align: center;
   display: block;
   transition: .2s ease;

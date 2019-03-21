@@ -1,16 +1,17 @@
 ---
-title: "Valuable Idea"
-date: 2018-09-29T11:51:17+06:00
-image: images/service/service-2.jpg
+title: "GitHub"
+date: 2018-09-29T11:54:02+06:00
+image: images/service/service-5.jpg
 bgImage: images/background/page-title.jpg
-icon: ti-thought
-brochureURL: '#'
-regularDay: Sun-Tues
-regularTime: 08.00am - 06.00pm
-halfDay: Thursday
-halfTime: 08.00am - 01.00pm
-offDay: Friday
+icon: ti-server
+brochureURL: 'https://github.com/ackten'
+imageUrl: "../../images/github/Octocat.jpg"
 type : service
+sideHeadingEnabled: true
+sideHeading : GitHub Application
+sideHeadingSubText: click to visit
+cardSummary: We can hook your GitHub to enforce TDD, GitFlow SDLC, relevant information in your pull request and other tools to make your developers more effective.
+
 ---
 
 ### Marketing Oriented To The Targated Customers
@@ -29,5 +30,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ![Chart](../../images/service/service-chart.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
----
 

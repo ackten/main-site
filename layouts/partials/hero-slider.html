@@ -18,7 +18,7 @@
                                 data-delay-in=".9">{{ .description | safeHTML }}
                             </p>
                             {{ if .btn.enable }}
-                            <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="{{ .btn.btnURL | absURL }}" class="btn btn-outline text-uppercase">{{ .btn.btnText }}</a>
+                            <a data-duration-in=".5" data-animation-in="fadeInDown" data-delay-in="1.3" href="{{ .btn.btnURL }}" class="btn btn-outline text-uppercase">{{ .btn.btnText }}</a>
                             {{ end }}
                         </div>
                     </div>

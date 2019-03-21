@@ -1,17 +1,17 @@
 enable : true
 titleSM : Our Goal
 title : Company Mission
-description : Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor didunt laboris nisi ut aliquip ex ea commodo consequat.
+description : We are developers, product managers, and scrummasters who want to improve workflow cycles, bring meaning to KPI's, and make our product development organization function as a team.
 image : images/chart.png
 accordion :
   - ID : collapseOne
-    title : Our Company Mission
-    description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
-    
+    title : Software Is A Team Sport
+    description : We truly believe that software is a team sport, and as all team sports, no one person wins while the team fails.
+
   - ID : collapseTwo
-    title : Our Company Mission
-    description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
-    
+    title : Dedication To The Craft
+    description : Building great software is more than 1's and 0's, it is about crafting high quality tools that our customers value, and building them with the utmost pride.
+
   - ID : collapseThree
-    title : Our Company Mission
-    description : Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur.Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+    title : Step by Step, Ferociously
+    description : We pride ourselves in looking at the problems you face, and empowering our product delivery team to build the tools to make your life easier.
