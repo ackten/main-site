@@ -3,6 +3,7 @@ languageCode = "en-US"
 title = "Ackten"
 summaryLength = "20"
 DefaultContentLanguage = "en"
+enableRobotsTXT = true
 
 # navigation
 [menu]
@@ -40,6 +41,10 @@ googleAnalitycsID = "UA-136686652-1"
 mailchimpFormAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e" # replace this url with yours
 mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code with yours
 
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
   # meta data
   [[params.meta]]
@@ -202,7 +207,7 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
 
         [[params.footer.links]]
             name = "Sitemap"
-            URL = "#"
+            URL = "/sitemap.xml"
 
         [[params.footer.links]]
             name = "Privacy Policy"
