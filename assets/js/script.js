@@ -3,7 +3,7 @@
 
     // Preloader js
     $(window).on('load', function () {
-        $('.preloader').fadeOut(700);
+        $('.preloader').fadeOut(300);
     });
 
     //  Search Form Open

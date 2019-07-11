@@ -346,13 +346,14 @@
 <script src="plugins/mixitup/mixitup.min.js"></script>
 <!-- Google Map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
-<script  src="plugins/google-map/gmap.js"></script>
+<script src="plugins/google-map/gmap.js"></script>
 <!-- Syo Timer -->
 <script src="plugins/syotimer/jquery.syotimer.js"></script>
 <!-- aos -->
 <script src="plugins/aos/aos.js"></script>
-<!-- Main Script -->
-<script src="js/script.js"></script>
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $scriptJs := resources.Get "js/script.js" | resources.Minify }}
+<script src="{{ $scriptJs.Permalink }}"></script>
 
 </body>
 </html>
