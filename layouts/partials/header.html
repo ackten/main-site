@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ "plugins/bootstrap/bootstrap.min.css" | absURL }} ">
     {{ "<!-- magnific popup -->" | safeHTML }}
     <link rel="stylesheet" href="{{ "plugins/magnific-popup/magnific-popup.css" | absURL }} ">
+
     {{ "<!-- Slick Carousel -->" | safeHTML }}
     <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }} ">
     <link rel="stylesheet" href="{{ "plugins/slick/slick-theme.css" | absURL }} ">
@@ -27,12 +28,23 @@
     <link rel="stylesheet" href="{{ "plugins/animate/animate.css" | absURL }} ">
     {{ "<!-- Aos -->" | safeHTML }}
     <link rel="stylesheet" href="{{ "plugins/aos/aos.css" | absURL }} ">
+
     {{ "<!-- Stylesheets -->" | safeHTML }}
-    <link href="{{ "css/style.css" | absURL }} " rel="stylesheet">
+    {{ $styleCss := resources.Get "css/style.css" | resources.Minify }}
+    <link href="{{ $styleCss.Permalink }}" rel="stylesheet">
 
     {{ "<!--Favicon-->" | safeHTML }}
     <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }} " type="image/x-icon">
     <link rel="icon" href="{{ "images/favicon.png" | absURL }} " type="image/x-icon">
+    <script type="text/javascript">
+      var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){
+        function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/next/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t
+        }({
+            instrumentationKey:"8f9b499e-6cdb-4609-aa75-0de8a7faaed7"
+        });
+
+      window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+      </script>
 
 </head>
 
